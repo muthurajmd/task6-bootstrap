@@ -1,0 +1,22 @@
+@media(max-width:576px){
+.size{
+	margin-top:10px!important;
+	margin-bottom:10px;
+
+}
+.order{
+	order:2;
+}
+.img1::after {
+    content: ""!important;
+    border: none!important;
+    border-left: 1px solid gray!important;
+    /* width: 75px!important; */
+    height: 572px!important;
+    position: absolute!important;
+    left: 82px!important;
+    top: 65px!important;
+}
+@media(min-width:768px) and (max-width:991px){
+
+}
